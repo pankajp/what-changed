@@ -25,6 +25,10 @@ class Module(Node):
         self.path = path
         self.name = splitext(basename(path))
 
+    def children(self):
+        return []
+
+
 class Package(Node):
 
     def __init__(self, path):

@@ -6,7 +6,9 @@ import unittest
 from whatchanged.parser import parse
 from whatchanged.tree import Package
 
+
 HERE = abspath(dirname(__file__))
+
 
 class TestNode(unittest.TestCase):
 
